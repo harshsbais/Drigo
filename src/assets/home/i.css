@@ -1,10 +1,14 @@
 .base{
-    background-image: url(../img/bg.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.7)),url(../img/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     overflow: auto;
+}
+.dash{
+    border: 2px solid red;
+    transform: rotate(90deg);
 }
 .follow{
     float: left;
@@ -30,12 +34,35 @@
     font-size: 4rem;
 }
 .mid-small{
+    color: rgb(43, 21, 21);
     font-size: 2rem;
 }
 .ri{
     float: left;
     width: 10vw;
 }
-hr.new1 {
-  border-top: 1px solid red;
+.section1{
+    background-color: rgb(207, 208, 208);
+    height: 100vh;
+}
+.sec-l{
+    display:flex;
+    float: left;
+    width: 40vw;
+    margin-left: 10vw;
+    padding: 30vh;
+}
+.heading{
+    font-size: 150px;
+    opacity: 0.4;
+}
+.sub-heading{
+    overflow: hidden;
+    white-space: nowrap;
+}
+.sec-r{
+    display:flex;
+    float: left;
+    width: 40vw;
+    padding: 30vh;
 }
